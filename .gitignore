@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (large nuclear data)
+data/endf/*.zip
+data/endf/*.endf
+data/tendl/*.tendl
+data/tendl/*.zip
+*.hdf5
+*.h5
+
+# Keep the data directories but not their contents
+data/endf/*
+!data/endf/.gitkeep
+data/exfor/*
+!data/exfor/.gitkeep
+data/tendl/*
+!data/tendl/.gitkeep
+data/janis/*
+!data/janis/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Plots (optional - remove if you want to track plots)
+*.png
+*.pdf
+*.svg
+
+# CSV files (can be regenerated)
+*.csv
+
+# Logs
+*.log
