@@ -86,19 +86,20 @@ ML4ND/
 
 **Topics covered:**
 - Understanding evaluated nuclear data
-- Installing and using OpenMC
-- Downloading ENDF/B-VIII.0 data
-- Extracting cross-sections for different reactions
-- Understanding MT numbers
-- Comparing U-235 and U-238
+- Downloading ENDF data from JANIS web interface
+- Loading and visualizing cross-section data
+- Understanding MT numbers (reaction types)
+- Comparing multiple reactions
+- Preparing data for machine learning
 
 **Key concepts:**
 - Evaluated vs experimental data
-- ENDF-6 format
-- Resonance structure
+- MT numbers and reaction types
+- Energy regions (thermal, resonance, fast)
 - Fissile vs fissionable isotopes
+- Using JANIS for easy CSV export
 
-**Duration:** 45-60 minutes
+**Duration:** 30-45 minutes (no installation complexity!)
 
 ---
 
